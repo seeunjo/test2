@@ -25,8 +25,9 @@ ordered
 ![seeun pro](/images/profile.jpg) 
 Format: ![이미지 alt명](url 링크) 
 
-두번째 방법 
-<a href="#"><img src="https://github.com/seeunjo/test2/images/profile.jpg" width="400px" alt="sample image"></a> 
+뱃지넣기
+https://img.shields.io/badge/license-mit-yellow
+<a href="#"><img src="https://img.shields.io/badge/license-mit-yellow" alt="sample image"></a> 
 Format: img 태그 사용 - 이미지경로는 상대경로 or 절대경로
 
 [GitHub](http://github.com "깃허브")
