@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>가상요소 선택자</title>
+    </head>
+    <style>
+
+        .p1:before{content:' 애국가 1절 - ';} /* 뒤에 자식 요소로 추가 */
+        /*.p1::before   :: ie8 이하에서 사용불가 */
+        .p1:after{content:' 마르고 닳도록';} /* 앞에 자식 요소로 추가 */
+        .ul1 {
+            list-style-type:none;}
+            /* disk
+            circle
+            square */
+
+        .ul1 li:before{content:' 좋아하는 음식 - ';}
+        
+        </style>
+    <body>
+
+        <p class="p1">동해물과 백두산이</p>
+        <ul class="ul1">
+            <li>치킨</li>
+            <li>맥주</li>        
+            <li>햄버거</li>
+                       </ul>
+
+
+    </body>

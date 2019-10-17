@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Float,띄우다,블록정렬</title>
+    </head>
+    <style>
+        
+        /* p {text-align:justify}
+        p span{float:right;font-size:250%;border:3px dotted orange;} */
+        .box1 {background-color:#808080;}
+        /* overflow:hidden; */
+        
+        .box1 img{float:right;width:300px}
+        .box1 .clear {
+            clear:both;} /* left=좌측에 
+                           right - 우측에
+                        both - 양쪽에 float요소를 해지함 */
+    
+        .box2 {background-color:#808080;}
+        .box2 img{float:left;} /*요소를 좌측에 띄운다 */
+        /* float를 했다면 부모의 clear 가상 요소를 추가한다. */
+        .box2:after{ 
+            content: '';
+            display:block;
+            clear:both;  /* content, display, clear 외워라! */
+        }
+    </style>
+    <body>
+            <h1>Float연습</h1>
+        <div class="box1">
+                <img src="d:\웹표준\0825\images\sea4.png" alt="바다">            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, 
+                 expedita esse facere beatae debitis animi, iusto, ratione 
+                 aspernatur aliquam reiciendis dolores ut repellendus numquam 
+                 assumenda maiores saepe accusantium molestias!
+        </div>
+        <div class="box2">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, 
+                <img src="d:\웹표준\0825\images\sea1.jpg" alt="바다">
+            expedita esse facere beatae debitis animi, iusto, ratione 
+            aspernatur aliquam reiciendis dolores ut repellendus numquam 
+            assumenda maiores saepe accusantium molestias!
+        </div>
+        </p>
+    </body>
+</html>
