@@ -4,15 +4,16 @@
 ####  테스트  (h4)
 #####  테스트  (h5)
 ######  테스트  (h6)
-Unordered 
-* Item 1 
-* Item 2 
-    * Item 2a 
-    * Item 2b 
 
-Ordered 
-1. Item 1 
-1. Item 2 
-1. Item 3 
-    1. Item 3a 
-    1. Item 3b
+unordered
+* Item 1
+* Item 2
+   * Item 2a
+   * Item 2b
+   
+ordered
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
