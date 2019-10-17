@@ -22,12 +22,10 @@ ordered
 위 문장에서 두 칸의 공백을 두어 강제 개행할 수 있습니다.
 
 첫번째 방법 
-![seeun pro](/images/profile.jpg) 
-Format: ![이미지 alt명](url 링크) 
+![seeun pro](/images/profile.jpg) Format: ![이미지 alt명](url 링크) 
 
 뱃지넣기
 <img src="https://img.shields.io/badge/license-mit-yellow">
-<img src="https://img.shields.io/badge/license-mit-yellow" alt="sample image"></a> 
 Format: img 태그 사용 - 이미지경로는 상대경로 or 절대경로
 
 [GitHub](http://github.com "깃허브")
